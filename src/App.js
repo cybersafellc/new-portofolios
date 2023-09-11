@@ -20,13 +20,11 @@ function App() {
   }, []);
   return (
     <div>
-      <BrowserRouter basename="/new-portofolios">
-        <Router>
-          <Routes>
-            <Route path="/new-portofolios" element={<Dashboard />} />
-          </Routes>
-        </Router>
-      </BrowserRouter>
+      <Router>
+        <Routes>
+          <Route path="/new-portofolios" element={<Dashboard />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
