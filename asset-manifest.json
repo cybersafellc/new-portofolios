@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/new-portofolios/static/css/main.334f3180.css",
-    "main.js": "/new-portofolios/static/js/main.5a7285cc.js",
+    "main.js": "/new-portofolios/static/js/main.ab268407.js",
     "static/js/787.69b6e98b.chunk.js": "/new-portofolios/static/js/787.69b6e98b.chunk.js",
     "static/media/successfully-done-5627021-4699001.gif": "/new-portofolios/static/media/successfully-done-5627021-4699001.c1591db4dcb01c5b6237.gif",
     "static/media/eror.gif": "/new-portofolios/static/media/eror.62675f63ecb924cf89b2.gif",
     "static/media/project1.PNG": "/new-portofolios/static/media/project1.9fd7be012a678edd800b.PNG",
     "static/media/laptop-main.png": "/new-portofolios/static/media/laptop-main.e1919d7ccd2d9ba653ac.png",
+    "static/media/project2.png": "/new-portofolios/static/media/project2.15c31afa6e4046806c94.png",
     "static/media/background-putih-abstrak.webp": "/new-portofolios/static/media/background-putih-abstrak.e771e89cb3f344f94167.webp",
     "index.html": "/new-portofolios/index.html",
     "main.334f3180.css.map": "/new-portofolios/static/css/main.334f3180.css.map",
-    "main.5a7285cc.js.map": "/new-portofolios/static/js/main.5a7285cc.js.map",
+    "main.ab268407.js.map": "/new-portofolios/static/js/main.ab268407.js.map",
     "787.69b6e98b.chunk.js.map": "/new-portofolios/static/js/787.69b6e98b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.334f3180.css",
-    "static/js/main.5a7285cc.js"
+    "static/js/main.ab268407.js"
   ]
 }
