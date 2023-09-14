@@ -11,6 +11,7 @@ import Navbars from "../components/Navbars";
 import Sosmed from "../components/Sosmed";
 import imgLaptop from "../Assets/img/laptop-main.png";
 import imgProject1 from "../Assets/img/project1.PNG";
+import imgProject2 from "../Assets/img/project2.png";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import Typewriter from "../components/Typewritter";
@@ -196,24 +197,39 @@ const Dashboard = () => {
               <Button
                 className="py-2 px-5 bg-ungu w-custom w-50 button-view-projrct"
                 variant="primary"
-                onClick={() => setModalShow(true)}
-              >
-                VIEW PROJECT
-              </Button>
-              <MydModalWithGrid
-                grepo={() =>
-                  Githubredirecrt(
-                    "https://github.com/cybersafellc/08-14-2023-ip-tracker"
-                  )
-                }
-                gpages={() =>
+                onClick={() =>
                   Githubredirecrt(
                     "https://cybersafellc.github.io/08-14-2023-ip-tracker/"
                   )
                 }
-                show={modalShow}
-                onHide={() => setModalShow(false)}
-              />
+              >
+                VIEW PROJECT
+              </Button>
+            </Col>
+            <Col md="6 container-laptop" data-aos="fade-right">
+              <Image className="w-100" src={imgProject2} />
+              <Image className="img-absolute w-75" src={imgProject2} />
+            </Col>
+            <Col
+              className="d-flex flex-column justify-content-center gap-4"
+              data-aos="fade-left"
+            >
+              <h3 className="fw-bold">Job Hunter</h3>
+              <p className="fs-5 text-secondary">
+                Job hunter is a front end template that I created using Ract js
+                and the library" in it.
+              </p>
+              <Button
+                className="py-2 px-5 bg-ungu w-custom w-50 button-view-projrct"
+                variant="primary"
+                onClick={() =>
+                  Githubredirecrt(
+                    "https://cybersafellc.github.io/website-loker/"
+                  )
+                }
+              >
+                VIEW PROJECT
+              </Button>
             </Col>
           </Row>
         </Container>

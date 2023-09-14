@@ -11,7 +11,9 @@ function MydModalWithGrid(props) {
   return (
     <Modal {...props} aria-labelledby="contained-modal-title-vcenter">
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">IP Tracker</Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">
+          {props.title}
+        </Modal.Title>
       </Modal.Header>
       <Modal.Body className="grid-example">
         <Container>
